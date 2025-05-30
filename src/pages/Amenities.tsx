@@ -34,7 +34,7 @@ export default function Amenities() {
           <div className="container relative z-10 pt-20">
             <div className="text-center max-w-3xl mx-auto">
               <span className="text-sm text-primary font-medium uppercase tracking-wider">
-                MareSereno
+                EliteEscapes
               </span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">
                 {t.amenitiesPage.title}
@@ -101,7 +101,7 @@ export default function Amenities() {
         })}
         
         {/* Gallery Section */}
-        <section className="py-16">
+        {/* <section className="py-16">
           <div className="container">
             <div className="text-center max-w-3xl mx-auto mb-12">
               <h2 className="text-3xl font-bold mb-4">
@@ -127,7 +127,7 @@ export default function Amenities() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
       
       <Footer />

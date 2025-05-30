@@ -2,19 +2,20 @@
 export const en = {
   nav: {
     home: "Home",
-    apartments: "Apartments",
+    apartments: "Accomadations",
     amenities: "Amenities",
     gallery: "Gallery",
     contact: "Contact",
     bookNow: "Book Now"
   },
   hero: {
-    subtitle: "BEACHFRONT LUXURY ACCOMMODATION",
-    title: "Best it solution place",
-    description: "Discover our exclusive collection of luxury beachfront apartments and hotel rooms, offering unparalleled comfort and breathtaking sea views.",
-    bookStay: "Book Your Stay",
-    exploreApartments: "Explore Apartments",
-    scrollDown: "Scroll Down"
+    subtitle: "BEACHFRONT LUXURY RETREATS",
+    title: "EliteEscapes",
+    description: "Experience the epitome of coastal elegance with our handpicked collection of luxury beachfront apartments and hotel suites—where every stay is a serene escape.",
+    bookStay: "Reserve Your Escape",
+    exploreApartments: "Browse Retreats",
+    scrollDown: "Discover More"
+
   },
   footer: {
     description: "Luxurious beachfront apartments and hotel rooms with stunning sea views, offering the perfect blend of comfort and elegance for your dream vacation.",
@@ -40,7 +41,7 @@ export const en = {
   },
   testimonials: {
     title: "What Our Guests Say",
-    description: "Discover why our guests keep coming back to MareSereno for their seaside getaways."
+    description: "Discover why our guests keep coming back to EliteEscapes for their seaside getaways."
   },
   notFound: {
     title: "Page Not Found",
@@ -49,11 +50,12 @@ export const en = {
   },
   home: {
     welcome: {
-      subtitle: "Welcome to MareSereno",
+      subtitle: "Welcome to EliteEscapes",
       title: "Luxury Seaside Accommodations",
-      description1: "Nestled on the pristine Mediterranean coastline, MareSereno offers an exquisite collection of luxury apartments and hotel rooms. Our beachfront accommodations combine elegant design with modern comfort, creating the perfect setting for an unforgettable seaside getaway.",
-      description2: "Whether you're seeking a romantic escape, a family vacation, or a peaceful retreat, our diverse range of accommodations caters to every preference and need. Each space is thoughtfully designed to provide panoramic sea views and direct beach access.",
+      description1: "At EliteEscapes, we redefine beachfront luxury with our curated selection of elegant apartments and premium hotel suites. Set along the stunning Mediterranean shoreline, each stay offers a seamless blend of comfort, sophistication, and breathtaking coastal views.",
+      description2: "From romantic getaways to family holidays and serene solo retreats, EliteEscapes provides an exceptional experience tailored to your every desire. Enjoy exclusive beachfront access, refined interiors, and personalized hospitality designed to elevate your escape.",
       learnMore: "Learn More"
+
     },
     booking: {
       subtitle: "Book Your Stay",
@@ -207,7 +209,7 @@ export const en = {
       name: "Name",
       email: "Email",
       phone: "Phone",
-      address: "Address", 
+      address: "Address",
       city: "City",
       country: "Country",
       specialRequests: "Special Requests",
@@ -303,7 +305,7 @@ export const en = {
   amenitiesPage: {
     title: "Our Amenities",
     subtitle: "Discover the luxury amenities and services that make your stay unforgettable.",
-    description: "At MareSereno, we are dedicated to providing a comprehensive and luxurious stay experience. From our beachfront services to wellness facilities, every detail has been curated to ensure maximum comfort and pleasure.",
+    description: "At EliteEscapes, we are dedicated to providing a comprehensive and luxurious stay experience. From our beachfront services to wellness facilities, every detail has been curated to ensure maximum comfort and pleasure.",
     categories: {
       wellness: {
         title: "Wellness & Relaxation",

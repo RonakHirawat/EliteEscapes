@@ -105,8 +105,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.phone}</h3>
-                      <p className="text-muted-foreground">+39 123 4567 890</p>
-                      <p className="text-muted-foreground">+39 098 7654 321 (Reservations)</p>
+                      <p className="text-muted-foreground">+91 9573789010</p>
+                      <p className="text-muted-foreground">+91 9573789010 (Reservations)</p>
                     </div>
                   </div>
                   
@@ -116,8 +116,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t.contact.email}</h3>
-                      <p className="text-muted-foreground">info@maresereno.com</p>
-                      <p className="text-muted-foreground">reservations@maresereno.com</p>
+                      <p className="text-muted-foreground">info@eliteescapes.com</p>
+                      <p className="text-muted-foreground">reservations@eliteescapes.com</p>
                     </div>
                   </div>
                   
@@ -136,7 +136,7 @@ export default function Contact() {
                   </div>
                 </div>
                 
-                <div className="aspect-video rounded-xl overflow-hidden">
+                {/* <div className="aspect-video rounded-xl overflow-hidden">
                   <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.03606358136!2d14.165818971864153!3d40.85529294646443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133b0a3c328d896b%3A0x309e11f99628150!2sGulf%20of%20Naples!5e0!3m2!1sen!2sus!4v1628613152777!5m2!1sen!2sus" 
                     width="100%" 
@@ -146,7 +146,7 @@ export default function Contact() {
                     loading="lazy"
                     title="Location Map"
                   />
-                </div>
+                </div> */}
               </div>
               
               {/* Contact Form */}
@@ -164,7 +164,7 @@ export default function Contact() {
                             name="name"
                             value={formData.name}
                             onChange={handleInputChange}
-                            placeholder="John Doe" 
+                            placeholder="Enter your full name" 
                             required 
                           />
                         </div>
@@ -177,7 +177,7 @@ export default function Contact() {
                             type="email"
                             value={formData.email}
                             onChange={handleInputChange}
-                            placeholder="john@example.com" 
+                            placeholder="Enter your email address" 
                             required 
                           />
                         </div>
@@ -191,7 +191,7 @@ export default function Contact() {
                             name="phone"
                             value={formData.phone}
                             onChange={handleInputChange}
-                            placeholder="+1 234 567 8900" 
+                            placeholder="Enter your phone number" 
                           />
                         </div>
                         
