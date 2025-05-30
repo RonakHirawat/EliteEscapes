@@ -20,23 +20,17 @@
 
 ---
 
-## 📁 Folder Structure
-EliteEscapes/
-├── public/                  # Static assets (favicon, images, etc.)
-├── src/
-│   ├── assets/              # Local images, icons, and media
-│   ├── components/          # Reusable UI components
-│   ├── locales/             # Language/localization files (e.g., en.ts, hi.ts)
-│   ├── pages/               # Page-level components (Home, About, etc.)
-│   ├── context/             # Context providers (e.g., LanguageContext.tsx)
-│   ├── App.tsx              # Main App component
-│   ├── main.tsx             # Entry point for React
-│   └── index.css            # Global styles (if any)
-├── .gitignore
-├── index.html               # HTML template used by Vite
-├── package.json
-├── tsconfig.json
-├── tailwind.config.ts
-├── postcss.config.js
-└── README.md
+📁 Project Structure  
+.  
+├── public/                 # Static assets  
+├── src/  
+│   ├── components/         # Reusable UI components (Navbar, Footer, Forms)  
+│   ├── contexts/           # Global state providers (e.g., Language Context)  
+│   ├── pages/              # Individual pages (Home, Contact, About)  
+│   ├── App.tsx             # App entry point  
+│   └── main.tsx            # Vite + React bootstrapping  
+├── tailwind.config.ts      # Tailwind config  
+├── tsconfig.json           # TypeScript config  
+└── vite.config.ts          # Vite config  
+
 
